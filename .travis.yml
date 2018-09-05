@@ -11,6 +11,10 @@ before_install:
 - export SFDX_DOMAIN_RETRY=300
 - export SFDX_DISABLE_APP_HUB=true
 - export SFDX_LOG_LEVEL=DEBUG
+
+- export CONSUMERKEY=3MVG9dZJodJWITSthVF2YBjlgWb43CsMBvhghARMX.DVGNfDl7f7tJYwgkG23N8yiwjDcSy5SDPW_WSxwwWhP
+- export USERNAME=mycguo@gmail.com
+
 - mkdir sfdx
 - wget -qO- $URL | tar xJ -C sfdx --strip-components 1
 - "./sfdx/install"
